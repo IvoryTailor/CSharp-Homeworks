@@ -1,0 +1,20 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _1_7_How_Old_After_10_Years
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            System.Console.WriteLine("Please write how old are you:");
+            int m = int.Parse(System.Console.ReadLine());
+            System.Console.Write("After 10 years, you will be: ");
+            System.Console.WriteLine(m += 10);
+
+        }
+    }
+}
