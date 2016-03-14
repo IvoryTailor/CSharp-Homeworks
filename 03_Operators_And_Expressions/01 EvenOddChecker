@@ -1,0 +1,21 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace EvenOddChecker
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter a number to be checked (followed by enter): ");
+            int number = int.Parse(Console.ReadLine());
+            if (number % 2 == 1)
+                Console.WriteLine(number + " is an odd number.");
+            else
+                Console.WriteLine(number + " is an even number.");
+        }
+    }
+}
