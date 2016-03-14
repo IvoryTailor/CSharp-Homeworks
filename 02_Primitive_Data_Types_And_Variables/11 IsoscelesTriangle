@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace IsoscelesTriangle
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            char co = '\u00A9';
+
+            Console.WriteLine();
+            Console.WriteLine("\t    " + co);
+            Console.WriteLine("\t   " + co + co + co);
+            Console.WriteLine("\t  " + co + co + co + co + co);
+            Console.WriteLine("\t " + co + co + co + co + co + co + co);
+            Console.WriteLine("\t" + co + co + co + co + co + co + co + co + co);
+            Console.WriteLine();
+        }
+    }
+}
+
+//May need to modify the console encoding
